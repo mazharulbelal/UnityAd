@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "UnityAdSPM",
+    name: "UnityAd",
     platforms: [
         .iOS(.v12)
     ],
@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "UnityAds",
-            url: "https://github.com/Unity-Technologies/unity-ads-ios/releases/download/4.16.3/UnityAds.xcframework.zip",
-            checksum: "dd2d6d035588a250fe6bf29a89574dceb8ff1387c93a4d62ac2caa10cc6c2d59"
+            url: "https://github.com/Unity-Technologies/unity-ads-ios/releases/download/4.16.3/UnityAds.zip",
+            checksum: "d1f5a008e85ac068d15c176845378ff4d98f4b719e27c3935d3a39ba428b3843"
         )
     ]
 )
